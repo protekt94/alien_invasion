@@ -12,3 +12,9 @@ class Settings:
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
         self.bullet_allowed = 10
+        # Параметры пришельцев
+        self.alien_speed = 1
+        self.fleet_drop_speed = 10
+        # fleet_direction = 1 - движение вправо, -1 - влево
+        self.fleet_direction = 1
+
